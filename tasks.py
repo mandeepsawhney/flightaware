@@ -7,7 +7,7 @@ def start(c):
     c.run('python app.py')
 
 
-# invoke lint --format=html --htmldir=lint-results
+# invoke lint
 @task
 def lint(c, format=None, htmldir='lint-results'):
     if format == 'html':
